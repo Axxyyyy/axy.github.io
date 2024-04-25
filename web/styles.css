@@ -41,3 +41,51 @@ h1 {
 .menu li a:hover {
     background-color: #ccc;
 }
+
+.crafting-table {
+    display: inline-block;
+    background-color: #964B00;
+    border: 2px solid #8B4513;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.crafting-row {
+    display: flex;
+}
+
+.crafting-slot {
+    width: 50px;
+    height: 50px;
+    background-color: #A0522D;
+    border: 2px solid #8B4513;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.crafting-output {
+    display: table-cell;
+    width: 50px;
+    height: 50px;
+    background-color: #A0522D;
+    border: 2px solid #8B4513;
+    border-radius: 5px;
+    margin: 5px;
+    position: relative;
+}
+
+.crafting-output img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.crafting-arrow {
+    width: 50px;
+    height: 50px;
+    background-image: url('arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
