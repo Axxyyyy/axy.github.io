@@ -42,36 +42,33 @@ h1 {
     background-color: #ccc;
 }
 
+.crafting-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
 .crafting-table {
-    display: table;
-    margin: 0 auto;
-    border-collapse: collapse;
-    border: 2px solid #8B4513; /* Brown border */
-    background-color: #964B00; /* Dark brown background */
+    display: inline-block;
+    border: 4px solid #000; /* Black border */
+    background-color: #666; /* Dark gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
 }
 
 .crafting-row {
-    display: table-row;
+    display: flex;
 }
 
 .crafting-slot {
-    display: table-cell;
     width: 50px;
     height: 50px;
-    border: 2px solid #8B4513; /* Brown border */
-    background-color: #A0522D; /* Light brown background */
-}
-
-.crafting-output {
-    display: table-cell;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #8B4513; /* Brown border */
-    background-color: #A0522D; /* Light brown background */
+    border: 1px solid #000; /* Black border */
+    background-color: #999; /* Light gray background */
+    margin: 5px;
     position: relative;
 }
 
-.crafting-output img {
+.crafting-slot img {
     display: block;
     margin: auto;
     max-width: 100%;
@@ -84,4 +81,14 @@ h1 {
     background-image: url('arrow.png');
     background-size: contain;
     background-repeat: no-repeat;
+    align-self: center;
+}
+
+.crafting-output {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000; /* Black border */
+    background-color: #999; /* Light gray background */
+    margin: 5px;
+    position: relative;
 }
